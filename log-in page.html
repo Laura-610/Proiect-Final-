@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Login Page</title>
+</head>
+<body> 
+<div id="sign up"></div>
+<script>
+fetch("sign up.json")
+</script>
+<style>
+body {
+  background-image: url('Image-01_-Benefits-of-Using-Sticky-Notes-1024x576.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+</style>
+<form name="loginForm" method="post" action="login.php">
+<table width="35%" bgcolor="FEFBD8" align="center">
+
+<tr>
+<td colspan=2><center><font size=5><b>Welcome!  Login Page</b></font></center><p> &#8203 </p></td>
+</tr>
+
+<p> &#8203 </p>
+<p> &#8203 </p>
+<p> &#8203 </p>
+
+<tr>
+<td><center><Calibri>Username </td>
+<td><input type="text" text-align:center style="font-family: Calibri" size=30 name="userid" ></td>
+</tr>
+
+<tr>
+<td><center><Calibri>Password</td>
+<td><input type="Password" text-align:center size=30 name="pwd" style="font-family: Calibri"></td>
+</tr>
+<tr>
+<td colspan=2><left><input type="Reset"></td>
+<td ><left><input type="Submit" onclick="return check(this.form)" value="Login"></td>
+<td ><right><form action="file:///C:/Users/AtomB/OneDrive/Desktop/sign%20up%20page.html#">
+    <input type="submit" value="Sign Up" />
+</form></td>
+</tr>
+
+<img src="blank-post-it-note-1.jpg" style="float:center" hspace="100"; width="170" height="170">
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "User" && form.pwd.value == "User")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username. If you don't have an account, sign in!")
+	return false;
+}
+}
+</script>
+
+</body>
+</html>

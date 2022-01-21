@@ -1,0 +1,25 @@
+{
+    "person": [
+        {
+            "First Name": "Ana",
+            "Last Name": "Popescu",
+            "Email":"sheesh@gmail.com",
+            "Password": "1234"
+            
+        },
+        {
+            "First Name": "Calin",
+            "Last Name": "Mihai",
+            "Email":"sheesh@gmail.com",
+            "Password": "1234"
+            
+        },
+        {
+            "First Name": "Flaviu",
+            "Last Name": "Sorescu",
+            "Email":"sheesh@gmail.com",
+            "Pssword": "1234"
+            
+        }
+    ]
+ }
